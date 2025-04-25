@@ -26,7 +26,7 @@
   })
   
   const goToArticle = (link) => {
-    window.open(`/newsWeb/#/article/${link}`, '_blank')
+    window.open(`/newsWeb/#/article/${link}`, '_blank');
   }
   </script>
   

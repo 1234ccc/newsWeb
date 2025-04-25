@@ -86,11 +86,11 @@ export default {
       isTransitioning: true,
       isAnimating: false,
       slides: [
-  { img: africa1, title: '联合国召开气候变化大会', link: '/newsWeb/Asia' },  // 👈 修改为带 /newsWeb/
-  { img: africa2, title: '人工智能影响全球就业市场', link: '/newsWeb/' },
-  { img: africa3, title: '全球股市近期波动加剧', link: '/newsWeb/' },
-  { img: africa4, title: '全球股市近期波动加剧', link: '/newsWeb/' },
-  { img: africa5, title: '全球股市近期波动加剧', link: '/newsWeb/' }
+  { img: africa1, title: '联合国召开气候变化大会', link: '#/newsWeb/Asia' },  // 使用 #/ 开头的路径
+  { img: africa2, title: '人工智能影响全球就业市场', link: '#/newsWeb/' },
+  { img: africa3, title: '全球股市近期波动加剧', link: '#/newsWeb/' },
+  { img: africa4, title: '全球股市近期波动加剧', link: '#/newsWeb/' },
+  { img: africa5, title: '全球股市近期波动加剧', link: '#/newsWeb/' }
 ]
     };
   },
